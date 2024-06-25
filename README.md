@@ -27,6 +27,16 @@ The project also delves into trends by analyzing data across various dimensions:
 - **School Size**: Evaluation of performance based on school sizes categorizes institutions into small, medium, and large categories, offering nuanced insights into educational effectiveness.
 - **School Type**: Comparison of district schools based on their type (charter vs. public) sheds light on potential differences in educational outcomes based on governance.
 
+#### Conclusions
+
+- **Spending Summary**: Analysis reveals a notable negative correlation between per-student spending and test scores. Schools with lower spending per student tend to exhibit higher average test scores, challenging the assumption that increased funding directly correlates with improved academic performance.
+
+- **School Size Summary**: There is a discernible negative correlation between school size and test scores. Smaller schools consistently demonstrate higher average test scores compared to larger institutions, suggesting that smaller class sizes may foster a more conducive learning environment.
+
+- **Subject Performance**: Across all analyses, students consistently perform better in reading than in math. This consistent trend underscores potential areas for curriculum adjustment or additional support in mathematics education.
+
+These conclusions highlight significant findings from the data analysis, providing valuable insights into factors influencing student achievement within the district.
+
 ## Installation
 
 1. **Clone the repository**:
