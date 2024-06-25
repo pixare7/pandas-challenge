@@ -1,4 +1,4 @@
-# pandas-challenge: PyCitySchools
+# School District Data Analysis
 
 ## Table of Contents
 - [Project Description](#project-description)
@@ -7,25 +7,38 @@
 
 ## Project Description
 
-### District Summary
-This project uses two datasets and analyzes student testing on a District level, calculating metrics such as total students, total budget, average math score, average reading score, percent of students passing math, percent of students passing reading, and the percent of students that are overall passing in both subject areas.  
+### Overview
+This project conducts a comprehensive analysis of student performance across a school district using Python and Pandas. It utilizes two datasets to derive insights at both the district and school levels, evaluating key metrics to assess educational outcomes and trends.
 
-### School Summary
-The district is then analyzed by school.  The metrics described for the analyzed as a whole are also analyzed per school (ie: total students, total budget, average math score, average reading score, percent of students passing math, percent of students passing reading, and the percent of students that are overall passing in both subject areas). 
-The schools are also compared with each other by sorting by highest rank and lowest rank in percent overall passing.  
-Furthermore, we also analyze the trends in the metrics of interest by grade, school size and school type, 
+### Analysis Highlights
+
+#### District Summary
+The analysis begins with a detailed overview of the entire district, summarizing essential metrics such as total students, budget allocation, and average scores in math and reading. It further calculates the percentage of students passing each subject and the overall passing rate.
+
+#### School Summary
+Each school within the district undergoes in-depth scrutiny, mirroring the district-wide analysis but tailored to individual school profiles. Metrics like student population, budget allocation per student, and academic performance are scrutinized to identify high-performing institutions.
+
+#### Comparative Analysis
+Schools are ranked based on overall passing rates, allowing for comparisons between top-performing and underperforming institutions. This comparative analysis aids in understanding disparities and potential areas for improvement across different schools.
+
+#### Additional Insights
+The project also delves into trends by analyzing data across various dimensions:
+- **Grade Levels**: Detailed examination of math and reading scores by grade level provides insights into academic progress over time.
+- **School Size**: Evaluation of performance based on school sizes categorizes institutions into small, medium, and large categories, offering nuanced insights into educational effectiveness.
+- **School Type**: Comparison of district schools based on their type (charter vs. public) sheds light on potential differences in educational outcomes based on governance.
 
 ## Installation
 
-1. Clone the repository:
+1. **Clone the repository**:
     ```sh
     git clone git@github.com:pixare7/pandas-challenge.git
     ```
-2. Navigate to the project directory:
+2. **Navigate to the project directory**:
     ```sh
     cd pandas-challenge
     ```
-3. Ensure you have Python and the necessary libraries installed.
+3. **Dependencies**:
+   - Ensure Python and necessary libraries are installed. Use `pip install -r requirements.txt` to install required packages.
 
 ## Results 
 
